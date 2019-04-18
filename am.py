@@ -5,7 +5,7 @@ while True:
 
        try:
            #wolframalpha
-           app_id = "YRRQ8V-P93VL22LR2"
+           app_id = "apiid"
            client = wa.Client(app_id)
            res = client.query(inp)
            answer = next(res.results).text
